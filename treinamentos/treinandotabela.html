@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon logotipo.jpg" type="image/x-icon">
+    <title>Tabela</title>
+    <style>
+
+        h1{
+           
+            color: blueviolet;
+        }
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }        
+        thead{
+            background-color: rgb(212, 198, 198);
+        }
+        th, td, tfoot{
+            border: 1px solid black;
+        }
+        tfoot .aprovados{
+            background-color: gray;
+        }
+        tfoot .resultado{
+            background-color: yellow;
+        }
+               
+    </style>
+</head>
+<body>
+    <h1>NOTAS DO PRIMEIRO SIMESTRE</h1>
+    <TABle>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Série</th>
+                <th>Data Nascimento</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>            
+                <td>Alexandre Gabriel Cardoso Simoes Dias </td>
+                <td>2 Ano</td>
+                <td>01/08/1973</td>
+                <td>9,0</td>
+            </tr>    
+                <td>Kauane Gabriele Cardoso da Silva</td>
+                <td>9 Ano</td>
+                <td>01/05/2005</td>
+                <td>9,0</td>
+            </tr>    
+                <td>Augusto Barbosa Simoes Dias</td>
+                <td>4 Ano</td>
+                <td>01/08/1951</td>
+                <td>7,0</td>
+            </tr>    
+                <td>Andre Barbosa Simoes Dias</td>                
+                <td>7 Ano</td>
+                <td>01/08/1954</td>
+                <td>3,0</td>
+            </tr>    
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="aprovados">Aprovados</th>
+                <td class="resultado">03</td>
+            </tr>
+        </tfoot>
+    </TABle>
+    
+</body>
+</html>
